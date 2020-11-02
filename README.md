@@ -26,17 +26,18 @@ Now you can use it in your index.html
   type="text/javascript"
   src="./node_modules/@flasd/spaced-repetition/dist/index.umd.js"
 ></script>
-// window.SpacedRepetition.default
+
+const { SpacedRepetition, getDueCards } = window.SpacedRepetition;
 ```
 
 Or import it as a module.
 
 ```javascript
-const SpacedRepetition = require('@flasd/spaced-repetition');
+const { SpacedRepetition } = require('@flasd/spaced-repetition');
 
 // or, in ES6+
 
-import SpacedRepetition from '@flasd/spaced-repetition';
+import { SpacedRepetition } from '@flasd/spaced-repetition';
 ```
 
 This module is [UMD](https://github.com/umdjs/umd) compliant, therefore it's compatible with RequireJs, AMD, CommonJs 1 & 2, etc.
@@ -52,7 +53,7 @@ new SpacedRepetition(): SpacedRepetition;
 ```
 
 ```javascript
-import SpacedRepetition from '@flasd/spaced-repetition';
+import { SpacedRepetition } from '@flasd/spaced-repetition';
 
 const sr = new SpacedRepetition();
 
@@ -81,7 +82,7 @@ getDueCards(
 This method returns a list of cards that are due (or overdue) for review:
 
 ```javascript
-import SpacedRepetition, { getDueCards } from '@flasd/spaced-repetition';
+import { SpacedRepetition, getDueCards } from '@flasd/spaced-repetition';
 
 const cards = [{ id: '1' }, { id: '2' }, { id: '3' }];
 

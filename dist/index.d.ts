@@ -41,5 +41,4 @@ declare class SpacedRepetition {
     getDueCards(cards: ISpacedRepetitionCard[], reviews: ISpacedRepetitionReview[]): [ISpacedRepetitionCard, TRepetition][];
 }
 declare const getDueCards: (cards: ISpacedRepetitionCard[], reviews: ISpacedRepetitionReview[]) => [ISpacedRepetitionCard, TRepetition][];
-export default SpacedRepetition;
 export { SpacedRepetition, getDueCards };

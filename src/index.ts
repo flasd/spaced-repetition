@@ -127,5 +127,4 @@ class SpacedRepetition {
 
 const { getDueCards } = new SpacedRepetition();
 
-export default SpacedRepetition;
 export { SpacedRepetition, getDueCards };

@@ -1,4 +1,5 @@
-import SpacedRepetition, {
+import {
+  SpacedRepetition,
   ISpacedRepetitionCard,
   ISpacedRepetitionReview,
   getDueCards,
