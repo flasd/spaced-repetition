@@ -1,6 +1,6 @@
 {
   "name": "@flasd/spaced-repetition",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Simple spaced repetition algorithm",
   "main": "dist/index.umd.js",
   "umd:main": "dist/index.umd.js",
