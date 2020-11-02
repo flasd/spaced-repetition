@@ -4,8 +4,8 @@ Simple spaced-repetition algorithm based on supermemo 2.
 
 [![Build Status](https://travis-ci.org/flasd/spaced-repetition.svg?branch=master)](https://travis-ci.org/flasd/spaced-repetition)
 [![Coverage Status](https://coveralls.io/repos/github/flasd/spaced-repetition/badge.svg?branch=master)](https://coveralls.io/github/flasd/spaced-repetition?branch=master)
-[![npm version](https://badge.fury.io/js/spaced-repetition.svg)](https://www.npmjs.com/package/spaced-repetition)
-[![npm downloads per month](https://img.shields.io/npm/dm/spaced-repetition.svg)](https://www.npmjs.com/package/spaced-repetition)
+[![npm version](https://badge.fury.io/js/spaced-repetition.svg)](https://www.npmjs.com/package/@flasd/spaced-repetition)
+[![npm downloads per month](https://img.shields.io/npm/dm/spaced-repetition.svg)](https://www.npmjs.com/package/@flasd/spaced-repetition)
 
 ## Installation
 
